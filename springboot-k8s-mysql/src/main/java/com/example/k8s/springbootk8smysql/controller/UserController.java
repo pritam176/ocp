@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.k8s.springbootk8smysql.entity.User;
-import com.example.k8s.springbootk8smysql.repository.UserRepository;
 
 @RestController
 public class UserController {
