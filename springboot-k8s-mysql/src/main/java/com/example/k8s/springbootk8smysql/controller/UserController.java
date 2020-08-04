@@ -20,7 +20,7 @@ public class UserController {
 	
 	@GetMapping("/users")
 	public String getUsers() {
-		"Iam online";
+		return "Iam online";
 	}
 	
 	
