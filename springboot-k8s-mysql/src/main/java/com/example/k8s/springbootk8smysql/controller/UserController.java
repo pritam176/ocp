@@ -26,6 +26,10 @@ public class UserController {
 		return "User added successfully::"+emp.getId();
 		
 	}
+	@GetMapping("/users")
+	public String getUsers() {
+		"Iam online";
+	}
 	
 	@GetMapping("/users")
 	public List<User> getUsers() {
