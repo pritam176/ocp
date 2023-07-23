@@ -11,3 +11,12 @@ management:
 server:
   forward-headers-strategy: FRAMEWORK
   port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:oracle:thin:@lqp2dts-scan:1521/DTMICDEV
+    username: IS_UAEPASS_INTEGRATION
+    password: ENC(fqBQJQrG8GTLZOPhmsaKxKMWfBsiIZOa7M/tqveIUCA=)
+  jpa:
+    hibernate.ddl-auto: validate
