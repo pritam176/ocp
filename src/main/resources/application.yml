@@ -15,7 +15,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:oracle:thin:@lqp2dts-scan:1521/DTMICDEV
+    url: jdbc:mysql:172.30.173.71:3306/sampledb
     username: IS_UAEPASS_INTEGRATION
     password: ENC(fqBQJQrG8GTLZOPhmsaKxKMWfBsiIZOa7M/tqveIUCA=)
   jpa:
