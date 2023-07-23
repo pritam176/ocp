@@ -16,7 +16,7 @@ public class UserController {
 	@GetMapping("/users")
 	public String getUsers() {
 		log.info("invoked");
-		return "I am Hosted on OCP";
+		return "I am Hosted on OCP,Spring boot";
 	}
 	
 	
