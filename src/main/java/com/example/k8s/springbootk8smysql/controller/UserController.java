@@ -42,7 +42,8 @@ public class UserController {
 
 	@GetMapping("/rest")
 	public String getRestUsers() {
-		log.info("Rest");
+		log.info("Rest tetst");
+		log.info("Rest tetst");
 
 		return restTemplate.getForObject(url,String.class);
 	}
